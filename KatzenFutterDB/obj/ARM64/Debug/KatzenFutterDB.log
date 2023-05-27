@@ -1,0 +1,17 @@
+﻿  Validating sources
+  Copying sources remotely to 'Kabpi'
+  Validating architecture
+  Validating architecture
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Application Type\Linux\1.0\Linux.targets(202,5): warning : Current project architecture 'ARM64' is incompatible with the remote system architecture 'ARM' ('armv7l'). Please switch the project architecture to 'ARM' in Configuration Manager. If you are cross-compiling you can ignore this warning.
+  Starting remote build
+  Compiling sources:
+  main.cpp
+  Linking objects
+/usr/bin/ld : error : /home/pi/projects/KatzenFutterDB/obj/ARM64/Debug/main.o: in function `main':
+C:\Github\KatzenfutterDB\KatzenFutterDB\main.cpp(12): error : undefined reference to `wiringPiSetupSys'
+/usr/bin/ld : error : /home/pi/projects/KatzenFutterDB/main.cpp:14: undefined reference to `pinMode'
+/usr/bin/ld : error : /home/pi/projects/KatzenFutterDB/main.cpp:18: undefined reference to `digitalWrite'
+/usr/bin/ld : error : /home/pi/projects/KatzenFutterDB/main.cpp:19: undefined reference to `delay'
+/usr/bin/ld : error : /home/pi/projects/KatzenFutterDB/main.cpp:20: undefined reference to `digitalWrite'
+/usr/bin/ld : error : /home/pi/projects/KatzenFutterDB/main.cpp:21: undefined reference to `delay'
+collect2 : error : ld returned 1 exit status

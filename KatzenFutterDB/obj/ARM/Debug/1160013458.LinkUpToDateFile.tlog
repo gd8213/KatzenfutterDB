@@ -1,0 +1,1 @@
+g++ -o "/home/pi/projects/KatzenFutterDB/bin/ARM/Debug/KatzenFutterDB.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/pi/projects/KatzenFutterDB/obj/ARM/Debug/main.o
